@@ -12,6 +12,7 @@ const {  data, error } = await supabase
   }
 return data
 }
+export async function createCabin(newCabin){}
 export async function deleteCabin(id){
   
 const {data, error  } = await supabase
